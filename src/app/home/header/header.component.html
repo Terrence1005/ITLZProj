@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row"style="border-style:solid">
+    <div class="col-xs-4" >
+      <img [src]='headLogoPath' height="100px" width="200px">
+    </div>
+    <div class="col-xs-8" style="padding:3%">
+      <div class="text-right">
+        <a routerLink="/login"><button class="btn" style="width:80px">Login</button></a>
+      
+      
+        <a routerLink="/register"><button class="btn" style="width:80px" (click)="register.open()">Register</button></a>
+      </div>
+    </div>
+  </div>
+</div>

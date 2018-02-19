@@ -1,0 +1,9 @@
+.btn{
+    border:none;
+    color:grey;
+    opacity: 0.8;
+    cursor:pointer;
+    background-color:white;
+    outline:none;
+}
+.btn:hover{opacity:1}
