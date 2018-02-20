@@ -13,7 +13,8 @@ import { H1BComponent } from './H1Bpage/h1-b/h1-b.component';
 
 const appRoutes : Routes = [
   { path: 'login', component: LoginComponent },
-  { path: 'register', component: RegisterComponent }
+  { path: 'register', component: RegisterComponent },
+  { path:'H1B',component:H1BComponent}
 ];
 
 @NgModule({
