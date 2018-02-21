@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+input{
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+select{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    height: 26px;
+}
+li{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    height: 26px;
+    font-weight: 300;
+}

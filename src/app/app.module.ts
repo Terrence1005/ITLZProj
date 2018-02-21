@@ -10,6 +10,11 @@ import { HeaderComponent } from './home/header/header.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { H1BComponent } from './H1Bpage/h1-b/h1-b.component';
+import { H1BchecklistComponent } from './H1Bpage/h1-bchecklist/h1-bchecklist.component';
+import { PersonalProfileComponent } from './H1Bpage/personal-profile/personal-profile.component';
+import { EducationFormComponent } from './H1Bpage/education-form/education-form.component';
+import { EmploymentHistoryComponent } from './H1Bpage/employment-history/employment-history.component';
+import { DocumentUploadComponent } from './H1Bpage/document-upload/document-upload.component';
 
 const appRoutes : Routes = [
   { path: 'login', component: LoginComponent },
@@ -24,7 +29,12 @@ const appRoutes : Routes = [
     HeaderComponent,
     LoginComponent,
     RegisterComponent,
-    H1BComponent
+    H1BComponent,
+    H1BchecklistComponent,
+    PersonalProfileComponent,
+    EducationFormComponent,
+    EmploymentHistoryComponent,
+    DocumentUploadComponent
   ],
   imports: [
     BrowserModule,
