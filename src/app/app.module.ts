@@ -15,11 +15,13 @@ import { PersonalProfileComponent } from './H1Bpage/personal-profile/personal-pr
 import { EducationFormComponent } from './H1Bpage/education-form/education-form.component';
 import { EmploymentHistoryComponent } from './H1Bpage/employment-history/employment-history.component';
 import { DocumentUploadComponent } from './H1Bpage/document-upload/document-upload.component';
+import { ServiceComponent } from './service/service/service.component';
 
 const appRoutes : Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'register', component: RegisterComponent },
-  { path:'H1B',component:H1BComponent}
+  { path:'H1B',component:H1BComponent},
+  { path:'service',component:ServiceComponent}
 ];
 
 @NgModule({
@@ -34,7 +36,8 @@ const appRoutes : Routes = [
     PersonalProfileComponent,
     EducationFormComponent,
     EmploymentHistoryComponent,
-    DocumentUploadComponent
+    DocumentUploadComponent,
+    ServiceComponent
   ],
   imports: [
     BrowserModule,
