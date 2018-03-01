@@ -2,6 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { Ng2UploaderModule } from 'ng2-uploader';
+import { FileUploadModule } from 'ng2-file-upload/file-upload/file-upload.module';
+//import { FileUploader } from 'ng2-file-upload';
 //import { ROUTER_PROVIDERS } from '@angular/router/';
 //import { Router } from '@angular/router';
 
@@ -16,6 +18,7 @@ import { PersonalProfileComponent } from './H1Bpage/personal-profile/personal-pr
 import { EducationFormComponent } from './H1Bpage/education-form/education-form.component';
 import { EmploymentHistoryComponent } from './H1Bpage/employment-history/employment-history.component';
 import { DocumentUploadComponent } from './H1Bpage/document-upload/document-upload.component';
+
 //import { ServiceComponent } from './service/service/service.component';
 
 const appRoutes : Routes = [
@@ -42,7 +45,9 @@ const appRoutes : Routes = [
   ],
   imports: [
     BrowserModule,
-    Ng2UploaderModule,
+    //Ng2UploaderModule,,
+    FileUploadModule,
+    //FileUploader,
     RouterModule.forRoot(appRoutes)
   ],
   providers: [],

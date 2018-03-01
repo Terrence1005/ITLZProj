@@ -18,6 +18,7 @@
   },
   "include":[
     "src/**/*",
-    "node_modules/ng2-uploader/ng2-uploader.ts"
+    "node_modules/ng2-uploader/ng2-uploader.ts",
+    "node_mudules/ng2-file-upload/ng2-file-upload.d.ts"
   ]
 }
